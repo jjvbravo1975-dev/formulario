@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(191, 255, 0);
+}
+
+.titulo {
+  color: aliceblue;
+}
+
+#identificador{
+  background-color: aquamarine;
+  color: black;
+}
+
+.otro{
+  background-color: aquamarine;
+  color: black;
+  font-size: 25px;
+}
+
+[href= "https://www.google.com/?hl=es"]{
+  color:#fff;
+}
+
+main h1{
+  color: rosybrown;
+  font-size: 40px
+
+ }
+
+ p{
+  background-color: aquamarine;
+  color: black;
+  font-size: 25px;
+ }
+
+ h1, h2{
+ color: blue;
+ font-size: 45;
+ }
