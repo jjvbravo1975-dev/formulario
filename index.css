@@ -11,8 +11,14 @@ p {
   font-family: verdana;
   font-size: 20px;
 }
-
 p em {
   color: blue;
   font-weight: bold;
 }
+
+div {
+  width: 300px;
+  background-color: lightblue;
+  margin: 0 auto;
+}
+
