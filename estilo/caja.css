@@ -11,18 +11,31 @@
   margin: 10px 20px 30px 40px;
   margin: 25px 15px;
   margin-left: 30px;
+  display: block;
 
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 20px;
   padding-right: 20px;
  /* display: block;*/
- padding: 30px;
+  padding: 30px;
+  border: solid 3px brown ;
+  box-sizing: border-box;
  
 }
 .color{
   background-color: blue;
 }
 .color2{
-   background-color: gre;
+   background-color: gren;
+}
+section.seccion{
+  margin-bottom: 150px;
+   background-color: rgb(140, 255, 0);
+   padding-top: 0.5px;
+}
+section{
+   margin-top: 160px;
+   background-color: rgb(255, 0, 0);
+   border: 5px solid;
 }

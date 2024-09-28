@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  /*color: rgb(0, 255, 204);*/
+}
+
+body{
+  color:red;
+}
+
+section{
+  color: blue;
+}
+
+h1{
+  color: violet;
+}
+.color{
+  color: blueviolet;
+}
+#color1{
+  color: black;
+}
+h1 .color {
+color: #000;
+}
