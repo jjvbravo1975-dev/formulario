@@ -69,13 +69,18 @@ section figure img {
 
 .btn{
   text-align: center;
-/* display: block;*/
- background-color:rgb(247, 7, 199) ;
- text-decoration: none;
- padding: 10px;
- color: white;
- 
+  /* display: block;*/  
+  display: inline-block;
+  background-color:rgb(247, 7, 199) ;
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  width: 60px;
+  vertical-align: middle;
 }
 .btn--border{
-  border-radius: 10px;
+  border-radius: 10px;  
+}
+.btn--center{
+  border-radius: 10px;  
 }
