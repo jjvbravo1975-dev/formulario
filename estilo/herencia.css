@@ -8,20 +8,74 @@
 body{
   color:red;
 }
-
+/*
 section{
   color: blue;
+  width: 800px;
+  background-color: aqua;
+  padding: 12px;
+  margin: 20px auto;
+  border: solid,1px brown ;
+  border-radius: 20px;
 }
 
 h1{
   color: violet;
+  padding: 2px;
 }
+
 .color{
-  color: blueviolet;
+  color: blu;
 }
+
 #color1{
   color: black;
 }
-h1 .color {
-color: #000;
+
+h1.color, p.color {
+color: violet !important;
+font-size: 40px;
+}
+
+section figure img {
+  width: 100%;
+  height: 800px;
+  object-fit: cover;
+}*/
+.card{
+  width: 400px;
+  background-color: rgba(156, 203, 203, 0.923);
+  padding: 10px;
+  margin: 0 auto;
+  border: solid 0.5px blue;
+  border-radius:10px ;
+}
+.card_title{
+  padding-bottom: 10px;
+  text-align: center;
+}
+.figure{
+  width: 100%;
+}
+.figue_img{
+  width: 100%;
+  border-radius: 2px;
+}
+.card__paragrath{
+  padding-top: 10px;
+  text-align: justify;
+  padding-bottom: 10px;
+}
+
+.btn{
+  text-align: center;
+/* display: block;*/
+ background-color:rgb(247, 7, 199) ;
+ text-decoration: none;
+ padding: 10px;
+ color: white;
+ 
+}
+.btn--border{
+  border-radius: 10px;
 }
